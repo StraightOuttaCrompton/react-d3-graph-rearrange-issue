@@ -1,4 +1,4 @@
-# Victory zoom resize example
+# react-d3-graph rearrange issue
 
 ## Bug replication
 
