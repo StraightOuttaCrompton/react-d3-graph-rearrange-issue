@@ -6,11 +6,8 @@ Follow the following steps to replicate the bug.
 
 * Run ```npm install```
 * Run ```npm start```
-* When the app is running at [http://localhost:3000](http://localhost:3000), click and drag the VictoryBrushContainer to select a smaller domain.
-* Resize the browser width.
-* The brush containers boundaries stay the same as they were.
-
-View the video [Example.webm](Example.webm) for more clarification.
+* When the app is running at [http://localhost:3000](http://localhost:3000), the graph initially should be arranged similar to ```figure 1```.
+* Change the width of the window and observe the rearranging of the graph to a position similar to ```figure 2```.
 
 ## Available Scripts
 
