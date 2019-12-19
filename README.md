@@ -8,7 +8,7 @@ Follow the following steps to replicate the bug.
 * Run ```npm start```
 * Navigate to [http://localhost:3000](http://localhost:3000).
 * The graph initially should be arranged similar to ```Figure 1```.
-* Change the width of the window and observe the rearranging of the graph to a position similar to ```Figure 2```.
+* Change the width of the window and observe the rearranging of the graph to a position similar to ```Figure 2```. The width change simply triggers a rerender of the graph.
 
 ### Figure 1
 ![Figure 1](Figure1.png)
