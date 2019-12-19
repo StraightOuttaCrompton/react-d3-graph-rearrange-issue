@@ -6,7 +6,8 @@ Follow the following steps to replicate the bug.
 
 * Run ```npm install```
 * Run ```npm start```
-* When the app is running at [http://localhost:3000](http://localhost:3000), the graph initially should be arranged similar to ```Figure 1```.
+* Navigate to [http://localhost:3000](http://localhost:3000).
+* The graph initially should be arranged similar to ```Figure 1```.
 * Change the width of the window and observe the rearranging of the graph to a position similar to ```Figure 2```.
 
 ### Figure 1
@@ -15,6 +16,14 @@ Follow the following steps to replicate the bug.
 
 ### Figure 2
 ![Figure 2](Figure2.png)
+
+## Cause 
+
+For some reason when ```d3: {}``` is commented out in the file ```./src/networkGraph/index.tsx```, the graph behaves differently.
+```ts
+// The following line seems to be the source of the unexpected behaviour
+d3: {}
+```
 
 ## Available Scripts
 

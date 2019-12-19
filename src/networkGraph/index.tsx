@@ -18,10 +18,7 @@ export default function NetworkGraph<T>(props: IProps<T>) {
     const parsedData = parseData(data);
 
     return (
-        <SizeMe
-            refreshMode="debounce"
-            refreshRate={100}
-        >
+        <SizeMe refreshMode="debounce" refreshRate={100}>
             {({ size }) => {
                 const { width } = size;
                 const _width = width === null ? undefined : width;
@@ -33,6 +30,8 @@ export default function NetworkGraph<T>(props: IProps<T>) {
                         config={{
                             ...config,
                             width: _width,
+                            // The following line seems to be the source of the unexpected behaviour
+                            d3: {}
                         }}
                     />
                 );
