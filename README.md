@@ -6,8 +6,15 @@ Follow the following steps to replicate the bug.
 
 * Run ```npm install```
 * Run ```npm start```
-* When the app is running at [http://localhost:3000](http://localhost:3000), the graph initially should be arranged similar to ```figure 1```.
-* Change the width of the window and observe the rearranging of the graph to a position similar to ```figure 2```.
+* When the app is running at [http://localhost:3000](http://localhost:3000), the graph initially should be arranged similar to ```Figure 1```.
+* Change the width of the window and observe the rearranging of the graph to a position similar to ```Figure 2```.
+
+### Figure 1
+![Figure 1](Figure1.png)
+
+
+### Figure 2
+![Figure 2](Figure2.png)
 
 ## Available Scripts
 
