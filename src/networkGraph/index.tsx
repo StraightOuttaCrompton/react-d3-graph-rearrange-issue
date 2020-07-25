@@ -12,7 +12,7 @@ interface IProps<T> {
 }
 
 export default function NetworkGraph<T>(props: IProps<T>) {
-    console.log("NetworkGraph");
+    // console.log("NetworkGraph");
 
     const { id, data, config = {} } = props;
     const parsedData = parseData(data);
